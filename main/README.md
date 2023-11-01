@@ -64,3 +64,76 @@ Always have photographer-name (or company) and source. (Both or any can be visib
 Illustration photo, with photographer name and rights-holder name in byline.
 
 The size of any photo should never be bigger than 1 MB
+
+Grading:
+
+Grading sheet for examiners DATA1200
+Last updated 2023 | As assignments change from year to year, the use of grading sheets may need to be calibrated by 
+the sensors for optimal alignment in any given year.
+Course is graded on the scale A—F using the following indicators to calculate the grade.
+DATA1200 is a 5 ECTS, first semester introduction course, and all hand-ins are assumed to be in groups 
+of 3–5 students. HTML and CSS must follow standards. Copied/ re-used code from external sources is 
+allowed as long as source is cited; however, points are only awarded when copied code is clearly 
+understood – else it may be ignored for scoring. JavaScript does not provide extra points but may reduce a 
+score if badly written/ incorporated JS breaks the page. A score may be reduced to 0.
+Pages should be checked on two screens/ for two screen sizes: Desktop/ wide and mobile/ narrow
+The UHR general, qualitative description of valuation criteria is used as a guideline for grading.
+Candidate Group number (from Inspera)
+Assessment 
+areas Sub-criteria Weight %
+(Max points)
+Score
+Overall 
+impression
+• Quality of work appropriate for introduction course at bachelor level
+• Quantity of work achieved reflects scope of course and size of group
+(Group size no more than 5; work should never be less than expected of 3 students)
+• All parts of assignment are addressed
+• The visual lay-out is well designed
+20
+HTML is well
+structured and 
+with correct usage 
+of elements
+• All meta-elements of HTML 5 and basic structure in place
+• HTML is well structured beyond absolute demands by accessibility/ WAI-criteria
+• HTML is simple to read and further develop by a different programmer
+• Efficient, non-bloated code
+15
+CSS is wellstructured and 
+with correct usage 
+of code/ selectors
+• Relevant and correct use of selectors
+• Styling of elements appropriate and fit-for-purpose
+• CSS is simple to read and to develop further by a different programmer
+• Efficient (non-bloated) code; if multiple stylesheets are used, they are used well
+20
+Comments & 
+evidence of 
+understanding
+• Comments in code used to assist other developers/ demonstrate understanding
+(important: total lack of meaningful comments influence this score heavily)
+• Understanding of code is evident in use, e.g. appropriate use of HTML-tags for 
+context, single or double styling of elements are coherent and rational
+• Directories are well-structured & paths used correctly
+• Names are descriptive
+• Naming conventions are consistent
+20
+Accessibility
+• Site follows the guidelines from W3C WAI closely
+• Automated checks are used, and the site is consistent with the results
+• The design has a high level of legibility and visual contrast
+• All pages are easy to navigate and use
+15
+Technical and 
+theoretical insight 
+and expertise
+• Use of contemporary knowledge, relevant techniques and methods
+• Relevance/ appropriateness/ feasibility of code to achieve outcome
+• Evidence of creativity and innovative thinking, as per UHR criteria (Note: This is a 
+“plus” criteria, an opportunity to show excellence more than a requirement.)
+10
+Additional 
+comments
+Total points:
+Grading scale: A: 100–91; B: 90–81; C: 80–61; D: 60–51; E: 50–41; F: 40–0 Grade
