@@ -63,4 +63,4 @@ Always have photographer-name (or company) and source. (Both or any can be visib
 
 Illustration photo, with photographer name and rights-holder name in byline.
 
-The size of any photo should never be bigger than 1 MB.
+The size of any photo should never be bigger than 1 MB
