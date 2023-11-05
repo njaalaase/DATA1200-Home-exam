@@ -1,0 +1,77 @@
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-list li {
+    margin-right: 20px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-list a:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+/* Media query for mobile view */
+@media (max-width: 800px) {
+    /* Navigation bar styles for mobile view */
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+    }
+
+    .navbar-list li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Footer styles for mobile view */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer-left {
+        margin-bottom: 20px;
+    }
+
+    /* Add any additional responsive styles for other elements as needed */
+}
