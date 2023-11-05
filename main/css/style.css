@@ -10,7 +10,7 @@ body, h1, h2, p, ul, li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px, 0;
 }
 
 .navbar-list {
