@@ -34,7 +34,47 @@ body, h1, h2, p, ul, li {
     color: #3498db; /* Text color on hover */
     background-color: #fff; /* Background color on hover */
 }
-/* Styling for the footer */
+
+/* Styling for the sections */
+.events, .research, .useful-info {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Gallery items */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-item, .research-item {
+    width: 33.33%; /* Each item takes up one-third of the width */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Responsive design for screens below 800px */
+@media (max-width: 800px) {
+    .gallery {
+        flex-direction: column; /* Stack items vertically */
+    }
+    
+    .event-item, .research-item {
+        width: 100%; /* Each item takes up the full width in mobile view */
+    }
+    
+    /* Move the button below the paragraph */
+    .subscribe-button {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+/*Styling for the footer*/
+
+
 footer {
     background-color: #444;
     color: #fff;
