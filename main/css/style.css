@@ -1,10 +1,16 @@
+//* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 /* Styling for the navigation bar */
 .navbar {
-    background-color: #333;
+    background-color: #3498db; /* Choose your background color */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .navbar-list {
@@ -18,15 +24,16 @@
 
 .navbar-list a {
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* Choose your text color */
+    font-family: Arial, sans-serif; /* Choose your font */
+    font-size: 18px; /* Choose your font size */
     transition: color 0.3s, background-color 0.3s;
 }
 
 .navbar-list a:hover {
-    color: #333;
-    background-color: #fff;
+    color: #3498db; /* Text color on hover */
+    background-color: #fff; /* Background color on hover */
 }
-
 /* Styling for the footer */
 footer {
     background-color: #444;
@@ -43,14 +50,11 @@ footer {
     margin-right: 10px;
 }
 
-
 /* Media query for mobile view */
 @media (max-width: 800px) {
-    /* Navigation bar styles for mobile view */
     .navbar {
         flex-direction: column;
         align-items: stretch;
-        padding: 10px;
     }
 
     .navbar-list {
@@ -62,16 +66,15 @@ footer {
         margin-bottom: 10px;
     }
 
-    /* Footer styles for mobile view */
-    footer {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .footer-left {
-        margin-bottom: 20px;
-    }
-
-    /* Add any additional responsive styles for other elements as needed */
+    
+footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
+
+.footer-left {
+    margin-bottom: 20px;
+}
+}
+
