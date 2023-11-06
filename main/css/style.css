@@ -154,6 +154,11 @@ footer {
 /* Style for images and links within the divs */
 .footer-container img {
     max-height: 20px; /* Set a maximum height for images (e.g., the button image) */
+    max-width: 100px;
+}
+.footer-left img{
+    min-height:100px;
+    min-width:120px;
 }
 
 /* Styles for links */
