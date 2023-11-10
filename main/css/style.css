@@ -239,6 +239,7 @@ footer {
 }
 .contact-info {
 	display: flex;
+	flex:1
 }
 .contact-info a {
 	flex: 1;
@@ -247,6 +248,7 @@ footer {
 
 .social-media {
 	display: flex;
+	flex:1
 	justify-content: space-between;
 	width: 100%;
 }
@@ -262,6 +264,7 @@ footer {
 }
 .about-website {
 	display: flex;
+	flex:2
 }
 .about-website a {
 	flex: 1;

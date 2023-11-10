@@ -170,7 +170,8 @@ article img{
     
 }
 .contact-info{
-    display: flex;    
+    display: flex; 
+    flex:1   
     
 }
 .contact-info a {
@@ -183,6 +184,7 @@ article img{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex:1
 }
 
 .social-media a {
@@ -196,6 +198,7 @@ article img{
 }
 .about-website{
     display: flex;
+    flex:2
 }
 .about-website a{
     flex: 1;
