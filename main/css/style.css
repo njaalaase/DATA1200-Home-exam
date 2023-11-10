@@ -20,6 +20,7 @@
     display: flex;
 }
 
+
 .navbar-list li {
    margin-right: 100px;
        
@@ -44,6 +45,13 @@
     background-color: #fff; /* Background color on hover */
 }
 
+@media (max-width: 760px) {.navbar-list{
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
 body{
     font-family: "Nunito Sans", sans-serif;
     
@@ -58,7 +66,7 @@ body{
     text-align: center;
     
 }
-]
+
 .welcome h1{
     
     margin-bottom: 100px;
@@ -245,8 +253,8 @@ footer {
 
 /* Responsive design for screens below 760px */
 @media (max-width: 760px) {
-    .footer-container {
-        flex-direction: column; /* Stack divs vertically */
+    .footer-container, .contact-info, .social-media, .about-website {
+        flex-direction: column; /* Stack  vertically */
     }
 }
 
