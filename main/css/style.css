@@ -248,7 +248,6 @@ footer {
 }
 .word{
 	display: inline-block;
-	transition: transform 0,3s ease-in-out;
 	color: black;
 	font-weight: 900;
 }
@@ -260,7 +259,6 @@ footer {
 	transform: rotate(45deg);
 	transform-origin:30% 0%;
 	position:absolute;
-	left:10;
 	top: -1,5em;
 }
 .footer-left img {
