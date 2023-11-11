@@ -240,6 +240,29 @@ footer {
 	/*display: block; /* Make links a block element for vertical alignment */
 	margin: 0px 0px; /* Add spacing between links */
 }
+.footer-left.word-container{
+	display: inline-block;
+	position: relative;
+	color: black;
+	font-weight: bold;
+}
+.word{
+	display: inline-block;
+	transition: transform 0,3s ease-in-out;
+	color: black;
+	font-weight: 900;
+}
+.word:first-child{
+	transform: rotate(-45deg);
+	transform-origin: 35% 55%;
+}
+.word:last-child{
+	transform: rotate(45deg);
+	transform-origin:30% 0%;
+	position:absolute;
+	left:10;
+	top: -1,5em;
+}
 .footer-left img {
 	min-height: 100px;
 	min-width: 150px;
