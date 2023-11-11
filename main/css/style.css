@@ -62,7 +62,7 @@ body {
 	text-align: center;
 }
 .welcome h1 {
-	font-size: 30px;
+	font-size: 35px;
 	margin: 50px;
 }
 .welcome img {
@@ -72,11 +72,11 @@ body {
 }
 
 .welcome .description {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .credits {
-	color: grey;
+	color: grey; /* different color for photo credits */
 }
 .welcome .first-paragraph {
 	margin: 20px 20px;
@@ -88,12 +88,12 @@ body {
 	/*background-color: #26eb0c;*/
 	background: linear-gradient(
 		45deg,
-		#f06,
-		#f06 25%,
+		#f77171,
+		#f77171 25%,
 		transparent 25%,
 		transparent 50%,
-		#f06 50%,
-		#f06 75%,
+		#f77171 50%,
+		#f77171 75%,
 		transparent 75%,
 		transparent
 	);
@@ -144,12 +144,12 @@ research-item3 {
 	/*background-color: purple;*/
 	background: linear-gradient(
 		45deg,
-		#f06,
-		#f06 25%,
+		#f46a6a,
+		#f46a6a 25%,
 		transparent 25%,
 		transparent 50%,
-		#f06 50%,
-		#f06 75%,
+		#f46a6a 50%,
+		#f46a6a 75%,
 		transparent 75%,
 		transparent
 	);
