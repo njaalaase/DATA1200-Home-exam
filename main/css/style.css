@@ -566,6 +566,11 @@ article img {
 
 }
 /*------------Accessibility page----------------------------------------------*/
-.events.events.events{
-	background-color: none;
+
+.accessibility h1{
+	margin: 50px auto;
+	color:#297fb8;
+}
+.accessibility .gallery h2{
+	color:green;
 }
