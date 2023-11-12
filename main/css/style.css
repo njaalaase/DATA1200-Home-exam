@@ -7,7 +7,7 @@
 
 /* Styling for the navigation bar */
 .navbar {
-	background-color: #3498db; /* Choose your background color */
+	background-color: #297fb8; /* Choose your background color */
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -176,7 +176,7 @@ research-item3 {
 	margin-left: 10px; /* Add spacing between the paragraph and button */
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: #3498db; /* Button background color */
+	background-color: #297fb8; /* Button background color */
 	color: #fff; /* Text color */
 	border: none;
 	border-radius: 5px;
@@ -564,4 +564,8 @@ article img {
 		transparent
 	);
 
+}
+/*------------Accessibility page----------------------------------------------*/
+.events.events.events{
+	background-color: none;
 }
