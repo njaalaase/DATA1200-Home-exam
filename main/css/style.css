@@ -242,7 +242,7 @@ footer {
 }
 .footer-left.word-container{
 	display: inline-block;
-	position: relative;
+	position: relative;/* Establishes the positioning context for child elements with absolute positioning.*/
 	color: black;
 	font-weight: bold;
 }
@@ -252,14 +252,14 @@ footer {
 	font-weight: 900;
 }
 .word:first-child{
-	transform: rotate(-45deg);
-	transform-origin: 35% 55%;
+	transform: rotate(-45deg);/*Rotates the element counterclockwise by 45 degrees.*/
+	transform-origin: 35% 55%;/*Sets the rotation origin point to 35% from the left and 55% from the top of the element.*/
 }
 .word:last-child{
-	transform: rotate(45deg);
-	transform-origin:30% 0%;
-	position:absolute;
-	top: -1,5em;
+	transform: rotate(45deg);/*Rotates the element clockwise by 45 degrees.*/
+	transform-origin:30% 0%;/*Sets the rotation origin point to 30% from the left and 0% from the top of the element.*/
+	position:absolute;/*Positions the element absolutely within its containing element*/
+	
 }
 .footer-left img {
 	min-height: 100px;
