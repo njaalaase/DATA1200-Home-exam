@@ -100,6 +100,8 @@ body {
 .events,
 .research {
 	
+
+	
 	background: linear-gradient(
 		45deg,/*The 45deg specifies the angle of the gradient. In this case, it indicates a 45-degree angle, creating a diagonal gradient.*/
 		#f77171,/*This is a color stop indicating a shade of red (#f77171).*/
@@ -167,17 +169,17 @@ body {
 .useful-info {
 	
 	
-	background: linear-gradient(
+	/* background: linear-gradient(
 		45deg,
 		#f46a6a,
-		#f46a6a 25%,
+		#f46a6a 50%,
 		transparent 25%,
 		transparent 50%,
 		#f46a6a 50%,
 		#f46a6a 75%,
 		transparent 75%,
-		transparent
-	);
+	
+	); */
 	padding: 20px;
 }
 
@@ -632,15 +634,15 @@ article img {
 /*-------------Activities page------------------------------------------------*/
 .events.events {
 	background: linear-gradient(
-		45deg,
-		#297fb8,
-		#297fb8 25%,
-		transparent 25%,
-		transparent 50%,
-		#297fb8 50%,
-		#297fb8 75%,
-		transparent 75%,
-		transparent
+		45deg,/*The 45deg specifies the angle of the gradient. In this case, it indicates a 45-degree angle, creating a diagonal gradient.*/
+		#297fb8,/*This is the starting color of the gradient, a shade of blue (#297fb8).*/
+		#297fb8 25%,/* At 25% of the gradient line, the color changes to blue (#297fb8)*/
+		transparent 25%,/*At the same 25% position, the color becomes transparent, creating a sudden transition from blue to transparent.*/
+		transparent 50%,/*At 50% of the gradient line, the color remains transparent.*/
+		#297fb8 50%,/*At the same 50% position, the color changes back to blue.*/
+		#297fb8 75%,/*At 75% of the gradient line, the color is blue again.*/
+		transparent 75%,/*At the same 75% position, the color becomes transparent.*/
+		transparent/* Finally, at the end of the gradient line (100%), the color is fully transparent.*/
 	);
 }
 /*------------Accessibility page----------------------------------------------*/
