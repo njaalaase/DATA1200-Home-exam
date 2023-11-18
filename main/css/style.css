@@ -102,7 +102,7 @@ body {
 	
 
 	
-	background: linear-gradient(
+	/* background: linear-gradient(
 		45deg,/*The 45deg specifies the angle of the gradient. In this case, it indicates a 45-degree angle, creating a diagonal gradient.*/
 		#f77171,/*This is a color stop indicating a shade of red (#f77171).*/
 		#f77171 25%,/*At 25% of the gradient line, the color changes to red (#f77171).*/
@@ -112,7 +112,7 @@ body {
 		#f77171 75%,/*At 75% of the gradient line, the color is red again.*/
 		transparent 75%,/*At the same 75% position, the color becomes transparent.*/
 		transparent/*Finally, at the end of the gradient line (100%), the color is fully transparent.*/
-	);
+	); */
 }
 
 .gallery {
@@ -144,12 +144,15 @@ body {
 }
 .item p{
 	text-align: justify;
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 12%;
+	margin-right: 12%;
 }
 
 /* Responsive design for screens below 760px */
 @media (max-width: 760px) {
+	main.welcome, main.events, main.research, section.useful-info{
+		background-color: #d15e5190;
+	}
 	.gallery {
 		grid-template-columns: 1fr; /* Change to a single column for mobile view */
 	}
@@ -182,18 +185,19 @@ body {
 	); */
 	padding: 20px;
 }
+.useful-info{
+	position:relative;
+}
 
-.useful-info p {
-	display: inline-block;
-	width: 40%;
-	vertical-align: middle;
-	font-size: 1.2rem;
-	font-weight: bold;
-	margin-top:2%;
-	margin-bottom:2%;
+.useful-info p{
+	position:absolute;
+	margin-left:65px;
+	
+	
 }
 
 .subscribe-button {
+	
 	vertical-align: middle;
 	margin-left: 10px; /* Add spacing between the paragraph and button */
 	display: inline-block;
@@ -204,6 +208,7 @@ body {
 	border-radius: 5px;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Button shadow */
 	text-decoration: none;
+	margin-bottom: 20px;
 	
 	
 }
@@ -218,11 +223,12 @@ body {
 	.useful-info p {
 		width: 100%; /* Take up the full width in mobile view */
 		display: block; /* Stack the button below the paragraph */
-		text-align: center; /* Center the text for better mobile readability */
+		margin:0 auto; /* Center the text for better mobile readability */
 	}
 
 	.subscribe-button {
-		margin: 10px 0; /* Add spacing between the paragraph and button in mobile view */
+		margin-top: 50px;
+		margin-bottom: 20px; /* Add spacing between the paragraph and button in mobile view */
 	}
 }
 
@@ -632,21 +638,11 @@ article img {
 	}
 }
 /*-------------Activities page------------------------------------------------*/
-.events.events {
-	background: linear-gradient(
-		45deg,/*The 45deg specifies the angle of the gradient. In this case, it indicates a 45-degree angle, creating a diagonal gradient.*/
-		#297fb8,/*This is the starting color of the gradient, a shade of blue (#297fb8).*/
-		#297fb8 25%,/* At 25% of the gradient line, the color changes to blue (#297fb8)*/
-		transparent 25%,/*At the same 25% position, the color becomes transparent, creating a sudden transition from blue to transparent.*/
-		transparent 50%,/*At 50% of the gradient line, the color remains transparent.*/
-		#297fb8 50%,/*At the same 50% position, the color changes back to blue.*/
-		#297fb8 75%,/*At 75% of the gradient line, the color is blue again.*/
-		transparent 75%,/*At the same 75% position, the color becomes transparent.*/
-		transparent/* Finally, at the end of the gradient line (100%), the color is fully transparent.*/
-	);
-}
-/*------------Accessibility page----------------------------------------------*/
 
+/*------------Accessibility page----------------------------------------------*/
+.accessibility-wrap{
+	background-color: rgba(182, 180, 180, 0.793);
+}
 .accessibility h1 {
 	margin-top: 50px;
 	margin-bottom: 0px;
