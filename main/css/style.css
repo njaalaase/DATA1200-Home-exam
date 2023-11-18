@@ -86,7 +86,7 @@ section.wrap{
 }
 
 .credits {
-	color: grey; /* different color for photo credits */
+	color: rgb(17, 17, 17); /* different color for photo credits */
 }
 
 .welcome .first-paragraph {
