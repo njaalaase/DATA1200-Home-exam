@@ -55,6 +55,11 @@ body {
 	font-size: 1.2rem;
 	color: #333;
 	text-align: center;
+	
+}
+section.wrap{
+	background-color: #d15e5190;
+	
 }
 /* Styling for the sections */
 
@@ -92,13 +97,10 @@ body {
 
 
 
-/* Styling for the events section */
-.events,
-.research {
-	
-
-	
-	}
+/* Styling for the welcome, events, research and useful-info sections */
+main.welcome, main.events, main.research, section.useful-info{
+	background-color: #cc938d90;
+}
 
 .gallery {
 	display: grid;
@@ -136,7 +138,7 @@ body {
 /* Responsive design for screens below 760px */
 @media (max-width: 760px) {
 	main.welcome, main.events, main.research, section.useful-info{
-		background-color: #d15e5190;
+		background-color: #c2c68890;
 	}
 	.gallery {
 		grid-template-columns: 1fr; /* Change to a single column for mobile view */
@@ -637,4 +639,12 @@ article img {
 
 .accessibility .gallery p:last-child{
 	text-align: justify;
+}
+@media (max-width: 760px) {
+	.accessibility-wrap {
+		background-color: rgba(162, 168, 135, 0.793);
+		
+	}
+
+	
 }
