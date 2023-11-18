@@ -90,11 +90,7 @@ body {
 	padding-right: 5%;
 }
 
-/* styling for events and research headers */
-/* .events h1,
-.research h1 {
-	text-align: center;
-} */
+
 
 /* Styling for the events section */
 .events,
@@ -102,18 +98,7 @@ body {
 	
 
 	
-	/* background: linear-gradient(
-		45deg,/*The 45deg specifies the angle of the gradient. In this case, it indicates a 45-degree angle, creating a diagonal gradient.*/
-		#f77171,/*This is a color stop indicating a shade of red (#f77171).*/
-		#f77171 25%,/*At 25% of the gradient line, the color changes to red (#f77171).*/
-		transparent 25%,/*At the same 25% position, the color becomes transparent, creating a sudden transition from red to transparent.*/
-		transparent 50%,/*At 50% of the gradient line, the color remains transparent.*/
-		#f77171 50%,/*At the same 50% position, the color changes back to red.*/
-		#f77171 75%,/*At 75% of the gradient line, the color is red again.*/
-		transparent 75%,/*At the same 75% position, the color becomes transparent.*/
-		transparent/*Finally, at the end of the gradient line (100%), the color is fully transparent.*/
-	); */
-}
+	}
 
 .gallery {
 	display: grid;
@@ -172,17 +157,7 @@ body {
 .useful-info {
 	
 	
-	/* background: linear-gradient(
-		45deg,
-		#f46a6a,
-		#f46a6a 50%,
-		transparent 25%,
-		transparent 50%,
-		#f46a6a 50%,
-		#f46a6a 75%,
-		transparent 75%,
 	
-	); */
 	padding: 20px;
 }
 .useful-info{
@@ -192,6 +167,7 @@ body {
 .useful-info p{
 	position:absolute;
 	margin-left:65px;
+	color: #333;
 	
 	
 }
