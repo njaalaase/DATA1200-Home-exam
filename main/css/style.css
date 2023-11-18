@@ -57,10 +57,7 @@ body {
 	text-align: center;
 	
 }
-section.wrap{
-	background-color: #d15e5190;
-	
-}
+
 /* Styling for the sections */
 
 .welcome {
@@ -104,25 +101,24 @@ main.welcome, main.events, main.research, section.useful-info{
 
 .gallery {
 	display: grid;
-	grid-template-columns: repeat(
-		auto-fill,
-		minmax(33.33%, 1fr)
-	); /* Create a grid with three columns */
+	grid-template-columns: 1fr 1fr; /* Create a grid with two columns */
 	gap: 10px;
-	justify-content: center; /* Center the grid horizontally */
+	justify-content: center; /* Center the grid horizontally */	
+	
 }
 
 /* image size */
 .gallery img {
 	max-width: 565px;
-	max-height: 375px;
+	max-height: 365px;
+	
 }
 
 .item{
 	/* text-align: center; */
-	margin-top:2%;
-	margin-bottom: 2%; /* Add space between rows */
-
+	margin-top:5%;
+	margin-bottom: 5%; /* Add space between rows */
+	
 }
 
 .item h2{
@@ -157,9 +153,7 @@ main.welcome, main.events, main.research, section.useful-info{
 
 /* Styles for the "Useful Information" section */
 .useful-info {
-	
-	
-	
+		
 	padding: 20px;
 }
 .useful-info{
@@ -168,7 +162,7 @@ main.welcome, main.events, main.research, section.useful-info{
 
 .useful-info p{
 	position:absolute;
-	margin-left:65px;
+	margin-left:70px;
 	color: #333;
 	
 	
@@ -642,7 +636,7 @@ article img {
 }
 @media (max-width: 760px) {
 	.accessibility-wrap {
-		background-color: rgba(162, 168, 135, 0.793);
+		background-color: rgba(142, 160, 137, 0.793);
 		
 	}
 
